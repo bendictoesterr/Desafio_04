@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+}
+
+header section{
+    display: flex;
+    justify-content: space-around;
+    width: 17vw;
+    align-items: center;
+    margin-left: 70px;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 14vw;
+    list-style: none;
+    align-items: center;
+    margin-right: 70px;
+}
+
+header p{
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.dog01{
+    background-image: url("desk/dog01.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 135vh;
+    padding: 90px;
+}
+
+.txt01{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.ch1{
+    font-size: 90px;
+    text-align: center;
+    color: white;
+}
+
+.dog02{
+    background-image: url("desk/dog02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 135vh;
+    padding: 120px;
+}
+
+.txt02{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.txt002{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.ch2{
+    color: #3A342F;
+    font-family: 'Roboto Serif', serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.ch3{
+    color: #3A342F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+}
+
+.b01{
+    border-radius: 50px;
+    background-color: #3A342F;
+    font-size: 30px;
+    font-weight: 700;
+    width: 16vw;
+    height: 10vh;
+    color: white;
+}
+
+.dog03{
+    background-image: url("desk/dog03.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 135vh;
+    padding: 190px;
+}
+
+.txt03{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ch4{
+    color: white;
+    font-family: 'Roboto Serif', serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.ch5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+}
+
+.b02{
+    border-radius: 50px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: 700;
+    width: 16vw;
+    height: 10vh;
+    color: black;
+    border: none;
+}
+
+.a01{
+    display: flex;
+    width: 34vw;
+}
+
+.apoio{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 20vh;
+    width: 60vw;
+    align-items: center;
+    background-color: white;
+}
+
+.imgapoio{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt04{
+    color: #FD6A9A;
+    font-size: 40px;
+}
+
+footer{
+    background-color: #EB4A7B;
+    display: flex;
+    justify-content: start;
+    height: 40vh;
+    align-items: center;
+}
+.f01{
+    margin-left: 60px;
+}
+
+.f02{
+    font-size: 40px;
+    color: #ffffff;
+}
+
+footer li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 20px;
+}
+
+.footerweb{
+    display: flex;
+}
+
+.footermedia{
+    opacity: 0;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    font-weight: 900;
+}
+
+@media (max-width:500px){
+    header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header p{
+        margin-left: 10px;
+    }
+
+    header section{
+        margin-right: 55px;
+        width: 300vw;
+    }
+
+    .fantas{
+        width: 25vw;
+        height: 15vh;
+    }
+
+    .yout{
+        display: none;
+    }
+
+    .insta{
+        display: none;
+    }
+
+    .dog01{
+        background-image:url("mob/dog001.png");
+        padding: 5px;
+        height: 78vh;
+    }
+
+    .txt01{
+        justify-content: space-evenly;
+        height: 50vh;
+    }
+
+    .ch1{
+        font-size: 40px;
+    }
+
+    .dog02{
+        background-image: url("mob/dog002.png");
+        padding: 20px;
+        height: 88vh;
+    }
+
+    .txt02{
+        height: 33vh;
+        margin-top: 25px;
+    }
+
+    .txt002{
+        height: 60vh;
+    }
+
+    .b01{
+        width: 40vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .ch2{
+        font-size: 25px;
+    }
+
+    .ch3{
+        font-size: 18px;
+    }
+
+    .dog03{
+        background-image: url("mob/dog003.png");
+        padding: 20px;
+        height: 90vh;
+    }
+
+    .txt03{
+        justify-content: start;
+        align-items: flex-start;
+        margin-top: 25px;
+    }
+
+    .ch4{
+        font-size: 25px;
+    }
+
+    .ch5{
+        font-size: 18px;
+    }
+
+    .b02{
+        width: 40vw;
+        height: 7vh;
+        font-size: 20px;
+    }
+
+    .txt04{
+        font-size: 20px;
+        height: 7vh;
+    }
+
+    .apoio{
+        flex-direction: column;
+        margin-left: 55px;
+        margin-right: 30px;
+        width: 70vw;
+        height:20vh;
+        margin-top: 0px;
+        justify-content: center;
+    }
+
+    .imgapoio{
+        width: 90vw;
+    }
+
+    .ap01{
+        width: 25vw;
+        height: 3vh;
+    }
+
+    footer{
+        flex-wrap: wrap;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f01{
+        margin-left: 0px;
+        height: 23vh;
+        width: 80vw;
+    }
+
+    .f02{
+        text-align: center;
+        font-size: 23px;
+        font-weight: 900;
+    }
+
+    .footerweb{
+        flex-direction: column;
+    }
+
+    .footermedia{
+        opacity: 1;
+        margin-top: 20px;
+    }
+
+    .redes{
+        height: 15vh;
+    }
+
+    footer li{
+        text-align: center;
+    }
+}
